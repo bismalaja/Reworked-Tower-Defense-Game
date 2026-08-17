@@ -2,8 +2,11 @@
 
 ## Project information
 
-- Student: `[Student name]`
-- Course: `[Course name]`
+- Student: `Biorni Ismalaja`
+- Course: `Programim i Lojrave`
+- Project: `Simple Tower Defense`
+- Instructor: `Egers Braho`
+- Academic year: `2025 - 2026`
 - Unity version: `6000.3.22f1`
 - Render pipeline: Built-in Render Pipeline
 - Input backend: Unity Input System package `1.20.0`

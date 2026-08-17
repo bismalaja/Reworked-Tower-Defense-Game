@@ -2,10 +2,11 @@
 
 ## Document information
 
-- Student: `[Student name]`
-- Course: `[Course name]`
-- Instructor: `[Instructor name]`
-- Academic year: `[Academic year]`
+- Student: `Biorni Ismalaja`
+- Course: `Programim i Lojrave`
+- Project: `Simple Tower Defense`
+- Instructor: `Egers Braho`
+- Academic year: `2025 - 2026`
 - Engine: Unity 6.3 (`6000.3.22f1`)
 - Target platform: Windows desktop
 
