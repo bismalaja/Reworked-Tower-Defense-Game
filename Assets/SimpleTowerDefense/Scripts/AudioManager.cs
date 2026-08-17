@@ -46,6 +46,7 @@ namespace SimpleTowerDefense
             }
 
             Instance = this;
+            EnsureAudioListener();
             DontDestroyOnLoad(gameObject);
             musicSource.volume = SaveSystem.Data.musicVolume;
             sfxSource.volume = SaveSystem.Data.sfxVolume;
@@ -74,7 +75,38 @@ namespace SimpleTowerDefense
 
         private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
         {
+            EnsureAudioListener();
             PlayMusicForScene(scene.name);
+        }
+
+        private void EnsureAudioListener()
+        {
+            AudioListener[] listeners = FindObjectsByType<AudioListener>(
+                FindObjectsInactive.Exclude,
+                FindObjectsSortMode.None);
+
+            foreach (AudioListener listener in listeners)
+            {
+                if (listener.enabled)
+                {
+                    return;
+                }
+            }
+
+            Camera mainCamera = Camera.main;
+            if (mainCamera == null)
+            {
+                Debug.LogWarning("AudioManager could not find the Main Camera for audio playback.");
+                return;
+            }
+
+            AudioListener cameraListener = mainCamera.GetComponent<AudioListener>();
+            if (cameraListener == null)
+            {
+                cameraListener = mainCamera.gameObject.AddComponent<AudioListener>();
+            }
+
+            cameraListener.enabled = true;
         }
 
         private void PlayMusicForScene(string sceneName)

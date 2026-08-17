@@ -208,13 +208,13 @@ These are deliberate project-scope decisions rather than incomplete core require
 
 ## Asset documentation
 
-Nine model mesh files, two music tracks and eleven sound-effect files originate from Unity Technologies'
-Tower Defense Template. Their exact paths and authorship boundary are documented in
-`ASSET_ATTRIBUTION.md`; the supplied notice is retained at
-`Assets/SimpleTowerDefense/Third-Party Notices.txt`. These files remain governed by their applicable
-Unity Asset Store licence.
+The Standard Turret, Laser Beamer and Missile Launcher models originate from the DevAssets tower-defense
+asset pack. Its README and usage-guideline link are retained under
+`Assets/SimpleTowerDefense/ThirdParty/DevAssetsTowerPack`. Three enemy mesh files, two music tracks and
+eleven sound-effect files originate from Unity Technologies' Tower Defense Template. These third-party
+files remain governed by their applicable licences.
 
 The fourteen gameplay scripts, two scenes, eight prefab compositions, project materials, UI structure,
 game rules and balancing, save system, camera controller, particle configuration and all project
 documentation were created specifically for Simple Tower Defense. The prefab configurations use the
-licensed meshes but are not prefabs taken from the source package.
+licensed meshes but were constructed and configured for this project.

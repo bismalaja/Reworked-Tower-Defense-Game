@@ -57,14 +57,3 @@ generic event framework, singleton inheritance hierarchy, alignment system or la
 - Music and SFX volume: the Settings screen or `save.json`
 
 All required scene references are already connected in the Inspector.
-
-## Third-party asset attribution
-
-The nine FBX mesh files under `ImportedArt` and the thirteen files under `Audio` are licensed content
-from Unity Technologies' Tower Defense Template. Their original Asset Store metadata is retained. Keep
-`Third-Party Notices.txt` and comply with the applicable Unity Asset Store licence while those files
-remain in the project. See the root `ASSET_ATTRIBUTION.md` for the complete list.
-
-The enemy/tower prefabs that reference those meshes were constructed for this project; they are not
-prefabs copied from the source package. The gameplay code, scenes, UI, project materials, balance data,
-save system, particles and documentation are also project-specific work.

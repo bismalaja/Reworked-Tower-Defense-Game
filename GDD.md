@@ -36,10 +36,11 @@ the Escape key, so prior experience with complex strategy games is not required.
 ## Artistic concept
 
 The visual direction combines a dark blue battlefield with bright, readable interaction colors.
-Build pads use blue to communicate valid construction locations. The project-specific enemy and tower
-prefabs use licensed third-party science-fiction mesh files listed in `ASSET_ATTRIBUTION.md`. The level
-composition, materials and interface were created for this project. The interface uses simple rectangular
-panels, white text and cyan highlights so gameplay information remains readable above the 3D scene.
+Build pads use blue to communicate valid construction locations. The project-specific tower prefabs use
+Standard Turret, Laser Beamer and Missile Launcher models from the DevAssets tower-defense pack. Enemy
+prefabs use three licensed Unity Technologies mesh files. The level composition, materials and interface
+were created for this project. The interface uses simple rectangular panels, white text and cyan
+highlights so gameplay information remains readable above the 3D scene.
 
 Particle colors communicate events:
 

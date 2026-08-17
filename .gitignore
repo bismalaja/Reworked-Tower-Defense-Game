@@ -20,6 +20,9 @@
 /[Uu]ser[Ss]ettings/
 *.log
 
+# Original downloaded asset archives; selected runtime files are copied under Assets/
+/NewBoughtAssets/
+
 # By default unity supports Blender asset imports, *.blend1 blender files do not need to be committed to version control.
 *.blend1
 *.blend1.meta

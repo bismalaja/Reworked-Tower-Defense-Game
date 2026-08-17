@@ -4,10 +4,10 @@ A compact desktop tower-defense game made with Unity 6. Its gameplay implementat
 small, readable project using fourteen focused C# scripts, two custom scenes and eight custom prefabs.
 It includes camera controls, scoring, JSON persistence, audio, particles and a complete UI flow.
 
-The project uses a limited collection of licensed third-party model meshes and audio clips. Those files
-are identified separately in [`ASSET_ATTRIBUTION.md`](ASSET_ATTRIBUTION.md); they do not include this
-project's gameplay code, scenes, prefab construction, UI, balancing, materials, save system or
-documentation.
+The project uses a limited collection of licensed third-party model meshes and audio clips. Their sources
+are described in the Assets section below and in the README retained with the DevAssets tower pack. They
+do not include this project's gameplay code, scenes, prefab construction, UI, balancing, materials, save
+system or documentation.
 
 ## Requirements
 
@@ -84,11 +84,14 @@ Builds/Windows/
 - [Game Design Document](GDD.md)
 - [Technical Report](TECHNICAL_REPORT.md)
 - [Script and balancing guide](Assets/SimpleTowerDefense/README.md)
-- [Third-party asset attribution](ASSET_ATTRIBUTION.md)
 
 ## Assets
 
-The nine model mesh files in `ImportedArt`, two music tracks and eleven sound-effect files in `Audio`
-originate from Unity Technologies' Tower.
+The three tower models are from the DevAssets tower-defense asset pack: Standard Turret, Laser Beamer
+and Missile Launcher. The pack README and usage-guideline link are retained under
+`Assets/SimpleTowerDefense/ThirdParty/DevAssetsTowerPack`.
 
-
+The three enemy mesh files in `ImportedArt/Models/Units`, two music tracks and eleven sound-effect files
+in `Audio` originate from Unity Technologies' Tower Defense Template. The third-party files are licensed
+content only; the gameplay scripts, scenes, prefab construction, UI, balance and supporting systems are
+project-specific work.
