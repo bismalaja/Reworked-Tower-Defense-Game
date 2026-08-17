@@ -86,12 +86,9 @@ Builds/Windows/
 - [Script and balancing guide](Assets/SimpleTowerDefense/README.md)
 - [Third-party asset attribution](ASSET_ATTRIBUTION.md)
 
-## Assets and licences
+## Assets
 
 The nine model mesh files in `ImportedArt`, two music tracks and eleven sound-effect files in `Audio`
-originate from Unity Technologies' Tower Defense Template. Their Asset Store metadata and the supplied
-`Third-Party Notices.txt` are retained. See `ASSET_ATTRIBUTION.md` for the complete file-level boundary.
+originate from Unity Technologies' Tower.
 
-All C# gameplay code, scenes, prefab composition and configuration, project materials, UI, balancing,
-save system, particle setup and project documentation were created specifically for Simple Tower
-Defense and are not attributed to Unity Technologies.
+
