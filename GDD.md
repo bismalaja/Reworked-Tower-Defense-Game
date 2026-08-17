@@ -20,11 +20,6 @@ The project is intentionally limited to one readable level. Its purpose is to de
 game loop, understandable C# architecture, progression, user interface, persistence, sound and visual
 feedback without hiding the mechanics behind a large framework.
 
-## Target audience
-
-The game is aimed at casual strategy players and students learning the tower-defense genre. A typical
-session takes approximately 8–12 minutes. The controls require only a mouse, keyboard movement keys and
-the Escape key, so prior experience with complex strategy games is not required.
 
 ## Player experience goals
 
