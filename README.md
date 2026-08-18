@@ -17,7 +17,11 @@ system or documentation.
 
 ## Project information
 
-- Student: **Biorni Ismalaja**
+- Students:
+  - **Biorni Ismalaja**
+  - **Nikoleta Dame**
+  - **Edona Hasula**
+  - **Oliver Cengu**
 - Course: **Programim i Lojrave**
 - Project: **Simple Tower Defense**
 - Instructor: **Egers Braho**
